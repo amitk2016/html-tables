@@ -1,0 +1,46 @@
+#computers{
+	font-family: Arial;
+	margin: 500px 0;
+	border:1px solid #333;
+	border-collapse: collapse;
+	width: 1000px;
+}
+#computers caption{
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+#computers th{
+	background-color: #3498db;
+	color: white;
+	padding:5px 10px;
+	border:1px solid #2980b9;
+}
+#computers td:first-child{
+	font-weight: bold;
+
+}
+
+#computers tr:nth-child(2n){
+	background-color: #ddd;
+}
+#computers td{
+	padding:10px;
+	/*text-align: center;*/
+}
+
+#computers tr:hover{
+	background-color: lightblue;
+	color:red;
+}
+
+#cpu-pro{
+	width:100px;
+}
+#cpu-standard{
+	width: 100px;
+}
+#computers td:nth-child(3),
+#computers td:nth-child(4){
+	text-align: center;
+}
